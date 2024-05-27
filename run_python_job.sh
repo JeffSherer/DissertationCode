@@ -9,7 +9,7 @@
 #SBATCH --gres=gpu:1
 
 # Source the environment setup script (modify the path if necessary)
-source /etc/profile.d/modules.sh
+source /usr/share/modules/init/bash
 
 # Load any required modules
 module load python/3.8.5
